@@ -14,61 +14,45 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="header__logo-menu">
-                <div class="header__logo">
-                    <img src="img/logo.svg" alt="logo">
-                </div>
+            <div class="container">
+                <div class="header__logo-menu">
+                    <div class="header__logo">
+                        <img src="img/logo.svg" alt="logo">
+                    </div>
 
-                <div class="header__menu">
-                    <ul>
-                        <li><a href="#" class="header__menu__link"> HOME</a></li>
-                        <li><a href="#" class="header__menu__link"> ABOUT</a></li>
-                        <li><a href="#" class="header__menu__link"> WORKS</a></li>
-                        <li><a href="#" class="header__menu__link"> BLOG</a></li>
-                        <li><a href="#" class="header__menu__link"> CONTACT</a></li>
-                    </ul>
-                </div>
+                    <div class="header__menu">
+                        <ul>
+                            <li><a href="#" class="header__menu__link"> HOME</a></li>
+                            <li><a href="#" class="header__menu__link"> ABOUT</a></li>
+                            <li><a href="#" class="header__menu__link"> WORKS</a></li>
+                            <li><a href="#" class="header__menu__link"> BLOG</a></li>
+                            <li><a href="#" class="header__menu__link"> CONTACT</a></li>
+                        </ul>
+                    </div>
 
-                <div class="header__icon-search">
-                    <img src="img/icon_color.svg" alt="icon">
-                </div>
+                    <div class="header__icon-search">
+                        <img src="img/icon_color.svg" alt="icon">
+                    </div>
 
+                </div>
             </div>
-
 
         </header>
 
         <section class="body__heading">
-            <div class="main-section">
-                <div>
-                    <h1>Manifest is a newborn theme.<br> Clean, simple and fast.</h1>
+
+            <div class="container">
+                <div class="main-section">
+                    <div>
+                        <h1>Manifest is a newborn theme.<br> Clean, simple and fast.</h1>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="works">
-            <!--<div class="works__gallery">
-                <img src="img/works/img_01.png" alt="work1">
-                <p class="caption">Mixkit Inspo</p>
-            </div>
-            <div class="works__gallery">
-                <img src="img/works/img_02.png" alt="work2">
-                <p class="caption">Abalone</p>
-            </div>
-             <div class="works__gallery">
-                <img src="img/works/img_01.png" alt="work1">
-                <p class="caption">Mixkit Inspo</p>
-            </div>
-            <div class="works__gallery">
-                <img src="img/works/img_02.png" alt="work2">
-                <p class="caption">Abalone</p>
-            </div> -->
-
-            <!-- Slider main container -->
             <div class="swiper">
-                <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
-                    <!-- Slides -->
                     <div class="swiper-slide">
                         <div class="works__gallery">
                             <img src="img/works/img_01.png" alt="work1">
@@ -87,9 +71,13 @@
                             <p class="caption">Mixkit Inspo</p>
                         </div>
                     </div>
-
+                    <div class="swiper-slide">
+                        <div class="works__gallery">
+                            <img src="img/works/img_02.png" alt="work2">
+                            <p class="caption">Abalone</p>
+                        </div>
+                    </div>
                 </div>
-                <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
 
@@ -98,73 +86,78 @@
         </section>
 
         <section class="info">
-            <div class="info__header">
-                <h3>Full-time UI/UX designer Head of Design at VeronaLabs.com</h3>
-                <div class="info__header__icon-arrow">
-                    <a href="#"><img src="img/arrow_1.svg" alt="arrow"></a>
+            <div class="container">
+                <div class="main-section">
+                    <div class="info__header">
+                        <h3>Full-time UI/UX designer Head of Design at VeronaLabs.com</h3>
+                        <div class="info__icon-arrow">
+                            <a href="#"><img src="img/arrow_1.svg" alt="arrow"></a>
+                        </div>
+                    </div>
+                    <div class="info__text">
+                        <p>We work with clients around the world from our headquarters in Charleston, South Carolina.<br><br> We focus on naming, branding, brand narratives, website design and development, and brand experiences.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="info__text">
-                <p>We work with clients around the world from our headquarters in Charleston, South Carolina.<br><br> We focus on naming, branding, brand narratives, website design and development, and brand experiences.</p>
             </div>
         </section>
 
         <section class="latest-posts">
-            <div class="latest-posts__header">
-                <h3>Latest Posts</h3>
-                <div class="latest-posts__header__see-all">
-                    <a href="#">View All <img src="img/arrow_1.svg" alt="arrow"></a>
+            <div class="container">
+                <div class="latest-posts__header">
+                    <h3>Latest Posts</h3>
+                    <div class="latest-posts__header__see-all">
+                        <a href="#">View All <img src="img/arrow_1.svg" alt="arrow"></a>
+                    </div>
+                </div>
+                <div class="latest-posts__main">
+                    <div class="post">
+                        <div class="post__img">
+                            <img src="img/latest_posts/img_01.png" alt="post_1">
+                        </div>
+                        <div class="post__caption">
+                            <p class="post__caption-category">Interface Design</p>
+                            <p class="post__caption-date">8 June, 2020</p>
+                        </div>
+                        <div class="post__text">
+                            <h2>UX traffic light colours</h2>
+                            <p>UI has to make a huge visual difference between warning, an alert and a success.</p>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post__img">
+                            <img src="img/latest_posts/img_02.png" alt="post_2">
+                        </div>
+                        <div class="post__caption">
+                            <p class="post__caption-category">Technology</p>
+                            <p class="post__caption-date">6 May, 2020</p>
+                        </div>
+                        <div class="post__text">
+                            <h2>Using UX Design to Build a Sustainable Future</h2>
+                            <p>Transformation has to be driven by everybody, not just by climate groups.</p>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post__img">
+                            <img src="img/latest_posts/img_03.png" alt="post_3">
+                        </div>
+                        <div class="post__caption">
+                            <p class="post__caption-category">Visual Design</p>
+                            <p class="post__caption-date">8 June, 2020</p>
+                        </div>
+                        <div class="post__text">
+                            <h2>Creativity vs. UX</h2>
+                            <p>Is it possible to create a delightful user experience without following best UX practices?.</p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="latest-posts__main">
-                <div class="post">
-                    <div class="post__img">
-                        <img src="img/latest_posts/img_01.png" alt="post_1">
-                    </div>
-                    <div class="post__caption">
-                        <p class="post__caption-category">Interface Design</p>
-                        <p class="post__caption-date">8 June, 2020</p>
-                    </div>
-                    <div class="post__text">
-                        <h2>UX traffic light colours</h2>
-                        <p>UI has to make a huge visual difference between warning, an alert and a success.</p>
-                    </div>
-                </div>
-
-                <div class="post">
-                    <div class="post__img">
-                        <img src="img/latest_posts/img_02.png" alt="post_2">
-                    </div>
-                    <div class="post__caption">
-                        <p class="post__caption-category">Technology</p>
-                        <p class="post__caption-date">6 May, 2020</p>
-                    </div>
-                    <div class="post__text">
-                        <h2>Using UX Design to Build a Sustainable Future</h2>
-                        <p>Transformation has to be driven by everybody, not just by climate groups.</p>
-                    </div>
-                </div>
-
-                <div class="post">
-                    <div class="post__img">
-                        <img src="img/latest_posts/img_03.png" alt="post_3">
-                    </div>
-                    <div class="post__caption">
-                        <p class="post__caption-category">Visual Design</p>
-                        <p class="post__caption-date">8 June, 2020</p>
-                    </div>
-                    <div class="post__text">
-                        <h2>Creativity vs. UX</h2>
-                        <p>Is it possible to create a delightful user experience without following best UX practices?.</p>
-                    </div>
-
-                </div>
-            </div>
-
         </section>
 
         <section class="footer">
-            <div class="wrapper">
+            <div class="container">
                 <div class="footer__grid-cont">
                     <div class="footer__grid-cont__contacts">
                         <h1>Need a project?</h1>
@@ -192,31 +185,7 @@
     </div>
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-    <script>
-        const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
-
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -145,11 +145,15 @@ table {
 ------ */
 
 .wrapper {
-    margin: 0 11%;
     padding: 0;
-    max-width: 1440px;
     font-size: 14px;
     height: 100%;
+}
+
+.container {
+    margin: 0 11%;
+    max-width: 1140px;
+    margin-bottom: 128px;
 }
 
 h1,
@@ -171,22 +175,6 @@ p {
 Logo-menu
 -------
 -------- */
-
-section,
-header {
-    margin-bottom: 128px;
-}
-
-
-/* 
-section {
-    height: 496px;
-} */
-
-
-/* .main-section {
-    margin-bottom: 128px;
-} */
 
 .header__logo-menu {
     display: flex;
@@ -251,20 +239,7 @@ Works
 ---------
 */
 
-
-/* 
-.works {
-    display: flex;
-    justify-content: space-around;
-    
-
-
-}*/
-
 .works__gallery img {
-    /* width: 544px;
-    height: 544px;
-    /* margin-left: 32px; */
     margin-bottom: 16px;
     display: block;
     width: 100%;
@@ -282,6 +257,7 @@ Works
 
 .swiper {
     height: 665px;
+    margin-bottom: 128px;
 }
 
 .swiper-slide {
@@ -300,9 +276,12 @@ Text
 */
 
 .info {
+    height: 192px;
+}
+
+.main-section {
     display: flex;
     flex-direction: row;
-    height: 192px;
 }
 
 .info__header h3 {
@@ -312,9 +291,12 @@ Text
     letter-spacing: 0.1em;
 }
 
+.info__icon-arrow {
+    margin-top: 48px;
+}
+
 .info__header {
     margin-right: 20%;
-    /* justify-content: left; */
 }
 
 .info__text p {
@@ -424,54 +406,6 @@ Latest Posts
     letter-spacing: 0.05em;
     color: #565656;
 }
-
-
-/* old variant 
-.latest-posts__main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.latest-posts__main__post {
-    width: 33%;
-    padding: 15px;
-}
-
-.latest-posts__main__post__img img {
-    display: block;
-    max-width: 100%;
-}
-
-.latest-posts__main__post__caption {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.latest-posts__main__post__caption p {
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 166%;
-    letter-spacing: 0.1em;
-    color: #7B7B7B;
-}
-
-.latest-posts__main__post__text h2 {
-    font-weight: normal;
-    font-size: 23px;
-    line-height: 166%;
-    letter-spacing: 0.1em;
-}
-
-.latest-posts__main__post__text p {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 166%;
-    letter-spacing: 0.05em;
-    color: #565656;
-}
-*/
 
 
 /* --------

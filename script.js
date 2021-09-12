@@ -1,14 +1,12 @@
-import Swiper from 'https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js'
-console.log('ghjklxlkjh');
-
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-    direction: 'vertical',
+    direction: 'horizontal',
     loop: true,
 
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
+
     },
 
     // Navigation arrows
@@ -21,4 +19,9 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
         el: '.swiper-scrollbar',
     },
+    slidesPerView: 2.8,
+    centeredSlides: true,
+    spaceBetween: 32,
+    // slidesPerGroup: 2,
+
 });
