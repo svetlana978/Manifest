@@ -229,8 +229,29 @@ Logo-menu
     text-align: left;
 }
 
+
+/* 
 .header__menu__link:hover {
     border-bottom: 3px solid red;
+} */
+
+.is-active {
+    position: relative;
+    text-align: center;
+}
+
+.is-active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 20px;
+    left: 0;
+    width: 35px;
+    height: 1px;
+    background-color: #000;
+    right: 0;
+    margin: 0 auto;
+    display: block;
 }
 
 .body__heading h1 {
