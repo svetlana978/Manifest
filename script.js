@@ -19,9 +19,9 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
         el: '.swiper-scrollbar',
     },
-    slidesPerView: 2.8,
-    centeredSlides: true,
+    slidesPerView: 2.6,
     spaceBetween: 32,
+    slidesOffsetBefore: 180,
     // slidesPerGroup: 2,
 
 });

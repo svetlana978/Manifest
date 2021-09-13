@@ -151,9 +151,15 @@ table {
 }
 
 .container {
-    margin: 0 11%;
     max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-section {
     margin-bottom: 128px;
+    margin-left: 11%;
+    margin-right: 11%;
 }
 
 h1,
@@ -223,6 +229,10 @@ Logo-menu
     text-align: left;
 }
 
+.header__menu__link:hover {
+    border-bottom: 3px solid red;
+}
+
 .body__heading h1 {
     font-size: 48px;
     font-weight: 400;
@@ -256,7 +266,6 @@ Works
 }
 
 .swiper {
-    height: 665px;
     margin-bottom: 128px;
 }
 
@@ -279,7 +288,7 @@ Text
     height: 192px;
 }
 
-.main-section {
+.info-section {
     display: flex;
     flex-direction: row;
 }
