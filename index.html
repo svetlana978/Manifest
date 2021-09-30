@@ -7,7 +7,8 @@
     <title>WP-Manifest</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-
+    <link rel="stylesheet" href="mob.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
 </head>
 
@@ -21,19 +22,21 @@
                     </div>
 
                     <div class="header__menu">
-                        <ul>
-                            <li><a href="index.html" class="header__menu__link"> HOME</a></li>
-                            <li><a href="about.html" class="header__menu__link"> ABOUT</a></li>
-                            <li><a href="#" class="header__menu__link active"> WORKS</a></li>
-                            <li><a href="#" class="header__menu__link"> BLOG</a></li>
-                            <li><a href="#" class="header__menu__link"> CONTACT</a></li>
-                        </ul>
+                        <a class="menu-triger" href="#"></a>
+                        <div class="menu-popup">
+                            <a class="menu-close" href="#"></a>
+                            <ul>
+                                <li><a href="index.html" class="header__menu__link"> HOME</a></li>
+                                <li><a href="about.html" class="header__menu__link"> ABOUT</a></li>
+                                <li><a href="#" class="header__menu__link"> WORKS</a></li>
+                                <li><a href="#" class="header__menu__link"> BLOG</a></li>
+                                <li><a href="#" class="header__menu__link"> CONTACT</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__icon-search">
+                            <img src="img/icon_color.svg" alt="icon">
+                        </div>
                     </div>
-
-                    <div class="header__icon-search">
-                        <img src="img/icon_color.svg" alt="icon">
-                    </div>
-
                 </div>
             </div>
 
@@ -186,6 +189,7 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="slider.js"></script>
     <script src="is-active.js"></script>
+    <script src="menu.js"></script>
 </body>
 
 </html>
